@@ -5,6 +5,7 @@ const CalculatorDisplay = ({text}) => {
         <input
             value={text}
             readOnly={true}
+            className="calculator-display"
         />
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import CalculatorButton from './CalculatorButton'
-
+import CalculatorDisplay from './CalculatorDisplay';
 
 
 const CalculatorPanel = () => {
@@ -18,6 +18,7 @@ const CalculatorPanel = () => {
 
     return (
         <div className='calculator-grid-container'>
+            <CalculatorDisplay text="" />
             {calc_buttons}
         </div>
     )
